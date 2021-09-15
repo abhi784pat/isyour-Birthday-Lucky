@@ -1,0 +1,104 @@
+:root {
+
+    --blue: rgb(54, 15, 194);
+}
+
+body {
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(/images/bday.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+* {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.header {
+    text-align: center;
+    margin-top: 100px;
+    color: blue;
+}
+
+.container {
+    width: 300px;
+    margin: auto auto;
+}
+
+label,
+input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+label {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: blue;
+}
+
+input {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+
+    font-size: large;
+    margin: 1rem 0;
+}
+
+#calculate-number {
+    margin: 0.5rem auto;
+    display: block;
+
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--blue);
+    margin: auto;
+    display: block;
+}
+
+#output-container {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: xx-large;
+    border-color: var(--blue);
+    border-width: medium;
+    border-radius: 10px;
+    color: blue;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: blue;
+    font-size: large;
+    text-align: center;
+}
+
+.footer-list {
+    margin: 1rem;
+}
+
+a,
+img,
+li {
+    display: inline;
+}
+
+img {
+    width: 80px;
+    padding: 0.4rem;
+}
