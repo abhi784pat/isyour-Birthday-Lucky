@@ -1,7 +1,8 @@
 mark 11 - Lucky Birthday
 An app which can help you to check whether your birthday is lucky or not.
 
-Live Project https://w25v5.csb.app/
+Live Project 
+https://lucky-birthday-1.netlify.app/
 How to Use
 Enter your Birthday
 
